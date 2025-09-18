@@ -1,0 +1,43 @@
+# Versión simplificada de .gitignore para Windows
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Dependencias
+node_modules/
+vendor/
+venv/
+env/
+
+# Archivos de entornos
+.env
+.env.local
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Archivos compilados
+dist/
+build/
+*.exe
+*.dll
+*.class
+*.pyc
+__pycache__/
+
+# Archivos de sistema operativo
+hiberfil.sys
+pagefile.sys
